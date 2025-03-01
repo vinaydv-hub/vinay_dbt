@@ -5,3 +5,4 @@ sources:
       schema: HAC_STAGE
       tables:
         - name: CHANGE_OWNER
+        - name: STG_STG_RSA_MOBILE_APP
