@@ -1,0 +1,7 @@
+version: 2
+sources: 
+  -name: database_schema_info
+  databse: POWER
+  SCHEMA: HAC_STAGE
+  TABLES:
+    -NAME: CHANGE_OWNER
