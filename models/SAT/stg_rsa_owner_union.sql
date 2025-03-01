@@ -12,4 +12,4 @@ tb2 as(
 ),
 select * from tb1
 union all
-select * from tb2;
+select * from tb2
