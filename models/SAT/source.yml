@@ -6,3 +6,4 @@ sources:
       tables:
         - name: CHANGE_OWNER
         - name: STG_RSA_MOBILE_APP
+        - name: STG_KLC
