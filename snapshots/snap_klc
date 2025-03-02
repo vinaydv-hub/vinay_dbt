@@ -1,0 +1,11 @@
+{% snapshot snap_klc %}
+{{
+    config(
+        strategy='timestamp',
+        uinque_key='id',
+        updated_at='src_date'
+    )
+}}
+select * 
+from {{source('datafeed_shared_schema','stg_klc')}}
+{% endsnapshot %}
