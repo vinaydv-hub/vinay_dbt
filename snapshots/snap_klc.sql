@@ -2,7 +2,8 @@
 {{
     config(
         strategy='timestamp',
-        uinque_key='id',
+        target_schema='snap',
+        unique_key='id',
         updated_at='src_date'
     )
 }}
